@@ -1,6 +1,10 @@
 #include<stdio.h>
 #include<assert.h>
-extern int sum(int a, int b);
+int sum(int a, int b){
+    int c;
+    c=a+b;
+    return c;
+}
 
 void test_all(){
     assert(sum(1,2)==3);
